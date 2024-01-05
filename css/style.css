@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:wght@300;400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#page_mask { 
+    display: none;
+    background: rgba(0, 0, 0, 0.63);
+    position: fixed;
+    inset: 0px;
+    z-index: 998;
+}
+
+.desktop_header {
+    padding-top: 20px;
+    width: 100%;
+    background: #dedede;
+    padding-bottom: 20px;
+}
+
+.desktop_size {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+
+}
+
+.header_logo img {
+    height: 40px;
+}
+
+.header_buttons {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+#signup_btn {
+    font-size: 19px;
+    border: 3px solid #4b8fce;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #dee6ff;
+    color: #4b8fce;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#login_btn {
+    font-size: 19px;
+    border: 3px solid #4b8fce;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #4b8fce;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#login_btn:hover {
+    background: #4b8fce;
+    color: #fff;
+    cursor: pointer;
+}
+
+#signup_btn:hover {
+    background: #4b8fce;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login_form {
+    display: none;
+    height: 390px; 
+    width: 360px; 
+    position: absolute; 
+    left: 50%; 
+    margin-left: -230px; 
+    top: 20%; 
+    z-index: 999; 
+    background: rgb(255, 255, 255); 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 3px;
+    border-radius: 5px;
+    padding: 40px; 
+    transition: visibility 1s ease 0s, opacity 0.5s ease-out 0s; 
+}
+
+#l_form {
+
+}
+
+.login_header {
+    font-size: 1.7rem; 
+    font-weight: bolder; 
+    margin-top: -15px; 
+    text-align: center; 
+    margin-bottom: 40px; 
+    line-height: 1.5; 
+    color: rgb(41, 41, 41); 
+    font-family: sans-serif;
+
+}
+
+#apply_form {
+
+}
+
+.login_input {
+    width: 94%; 
+    padding: 15px 10px; 
+    border: 1px solid rgb(214, 214, 214); 
+    margin-bottom: 13px; 
+    font-size: 1.1rem; 
+    border-radius: 3px; 
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 5px inset;
+}
+
+.cont_btn {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out 0s, transform 150ms ease 0s;
+    appearance: none;
+    width: 100%;
+    background: #4b8fce;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+
+.extra_login_features {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 19px; 
+    padding-left: 1px; 
+    padding-right: 1px; 
+    font-size: 0.9rem;
+}
+
+#remember_me {
+    color: rgb(153, 153, 153); 
+}
+
+#forgot_pass {
+    text-decoration: none;
+}
+
+.not_member {
+    border-top: 1px solid rgb(224, 224, 224); 
+    padding-top: 30px; 
+    margin-top: 36px; 
+    margin-left: -40px; 
+    margin-right: -40px; 
+    text-align: center; 
+    color: rgb(62, 62, 62); 
+    font-weight: 400; 
+    font-size: 1rem;
+}
+
+.signup_form {
+    display: none;
+    height: 465px; 
+    width: 360px; 
+    position: absolute; 
+    left: 50%; 
+    margin-left: -230px; 
+    top: 20%; 
+    z-index: 999; 
+    background: rgb(255, 255, 255); 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 3px;
+    border-radius: 5px;
+    padding: 40px; 
+    transition: visibility 1s ease 0s, opacity 0.5s ease-out 0s; 
+}
+
+#s_form {
+
+}
+
+.signup_header {
+    font-size: 1.7rem; 
+    font-weight: bolder; 
+    margin-top: -15px; 
+    text-align: center; 
+    margin-bottom: 40px; 
+    line-height: 1.5; 
+    color: rgb(41, 41, 41); 
+    font-family: sans-serif;
+
+}
+
+#apply_form {
+
+}
+
+.signup_input {
+    width: 94%; 
+    padding: 15px 10px; 
+    border: 1px solid rgb(214, 214, 214); 
+    margin-bottom: 13px; 
+    font-size: 1.1rem; 
+    border-radius: 3px; 
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 5px inset;
+}
+
+.cont_btn {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out 0s, transform 150ms ease 0s;
+    appearance: none;
+    width: 100%;
+    background: #4b8fce;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+
+.extra_login_features {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 19px; 
+    padding-left: 1px; 
+    padding-right: 1px; 
+    font-size: 0.9rem;
+}
+
+#remember_me {
+    color: rgb(153, 153, 153); 
+}
+
+#forgot_pass {
+    text-decoration: none;
+}
+
+.not_member {
+    border-top: 1px solid rgb(224, 224, 224); 
+    padding-top: 30px; 
+    margin-top: 36px; 
+    margin-left: -40px; 
+    margin-right: -40px; 
+    text-align: center; 
+    color: rgb(62, 62, 62); 
+    font-weight: 400; 
+    font-size: 1rem;
+}
+
+.cover {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.search_location {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+#type_location {
+    width: 400px;
+}
+
+.location_input {
+    width: 440px;
+    padding: 15px;
+    border: 1px solid rgb(175 169 169);
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 7px inset;
+    margin-top: 40px;
+}
+
+.recommended_section {
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    font-size: 27px;
+    font-weight: 600;
+}
