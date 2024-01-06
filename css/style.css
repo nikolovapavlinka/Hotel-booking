@@ -21,8 +21,9 @@ body {
 .desktop_header {
     padding-top: 20px;
     width: 100%;
-    background: #dedede;
+    background: #fff;
     padding-bottom: 20px;
+    position: fixed;
 }
 
 .desktop_size {
@@ -34,6 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .header_logo {
@@ -55,8 +57,8 @@ body {
     font-size: 19px;
     border: 3px solid #4b8fce;
     padding: 10px 15px;
-    border-radius: 10px;
-    background: #dee6ff;
+    border-radius: 20px;
+    background: #c5e4ff9e;
     color: #4b8fce;
     font-weight: 500;
     cursor: pointer;
@@ -66,7 +68,7 @@ body {
     font-size: 19px;
     border: 3px solid #4b8fce;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #4b8fce;
     font-weight: 500;
     cursor: pointer;
@@ -267,8 +269,11 @@ body {
 }
 
 .cover {
-    width: 94%;
+    width: 100%;
     margin: 0 auto;
+    background: #efefef;
+    height: auto;
+    padding-top: 70px;
 }
 
 .search_location {
@@ -284,10 +289,10 @@ body {
 .location_input {
     width: 440px;
     padding: 15px;
-    border: 1px solid rgb(175 169 169);
+    border: 1px solid #4b8fce;
     font-size: 18px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 7px inset;
+    box-shadow: #6db2ef 0px 0px 7px inset;
     margin-top: 40px;
 }
 
@@ -298,7 +303,310 @@ body {
 .title {
     display: flex;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 30px;
     font-size: 27px;
     font-weight: 600;
+    color: #233d84;
 }
+
+.widgets {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.left_side {
+    width: 20%;
+    position: fixed;
+}
+
+.left_box {
+
+}
+
+.car_rental_box {
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 25px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+}
+
+.car_rental_info {
+    text-align: center;
+}
+
+.car_rental_title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #233d84;
+}
+
+.car_rental_desc {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.car_rental_btn {
+    border: 3px solid #4b8fce;
+    width: fit-content;
+    padding: 5px 9px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #4b8fce;
+    color: #fff;
+    
+}
+
+.car_rental_btn:hover{
+    background: #233d84;
+    cursor: pointer;
+    border: 3px solid #233d84;
+}
+
+.instructors_box {
+    margin-top: 30px;
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+}
+
+.instructors_info {
+    text-align: center;
+}
+
+.instructors_title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #233d84;
+}
+
+.instructors_desc {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.instructors_btn {
+    border: 3px solid #4b8fce;
+    width: fit-content;
+    padding: 5px 9px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #4b8fce;
+    color: #fff;
+}
+
+.instructors_btn:hover{
+    background: #233d84;
+    cursor: pointer;
+    border: 3px solid #233d84;
+}
+
+.middle {
+    width: 50%;
+    margin-left: 380px;
+}
+
+.boxes {
+    
+}
+
+.middle_box {
+    display: flex;
+    border: 3px solid #233d84;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.middle_box:hover {
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.image {
+
+}
+
+.image img {
+    width: 360px;
+}
+
+.text {
+    margin-left: 50px;
+}
+
+.name_place {
+    font-size: 30px;
+    font-weight: 600;
+    color: #3e3e3e;
+}
+
+.rating {
+    display: flex;
+}
+
+.stars {
+
+}
+
+.stars img {
+    width: 102px;
+    margin-top: -16px;
+}
+
+.rating_number {
+    margin-top: 24px;
+    margin-left: 13px;
+    font-size: 17px;
+}
+
+.location {
+    display: flex;
+    margin-top: -31px;
+}
+
+.location_image {
+
+}
+
+.location_image img {
+    width: 37px;
+    opacity: 0.5;
+}
+
+.location_text {
+    margin-left: 10px;
+    margin-top: 13px;
+    font-size: 19px;
+    color: #505050e0;
+    font-weight: 500;
+    
+}
+
+.price {
+    font-size: 23px;
+    margin-top: 14px;
+}
+
+.include {
+    color: green;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 11px;
+}
+
+.right_side {
+    width: 20%;
+    position: fixed;
+    margin-left: 1195px;
+}
+
+.right_box {
+
+}
+
+.experiences_box {
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 25px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+}
+
+.experiences_info {
+    text-align: center;
+}
+
+.ex_title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #233d84;
+}
+
+.ex_desc {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.ex_btn {
+    border: 3px solid #4b8fce;
+    width: fit-content;
+    padding: 5px 9px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #4b8fce;
+    color: #fff;
+}
+
+.ex_btn:hover{
+    background: #233d84;
+    cursor: pointer;
+    border: 3px solid #233d84;
+}
+
+.restaurants_box {
+    margin-top: 30px;
+    border: 3px solid #4b8fce;
+    height: 255px;
+    padding: 25px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+}
+
+.restaurants_info {
+    text-align: center;
+}
+
+.restaurants_title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #233d84;
+}
+
+.restaurants_desc {
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.restaurants_btn {
+    border: 3px solid #4b8fce;
+    width: fit-content;
+    padding: 5px 9px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #4b8fce;
+    color: #fff;
+}
+
+.restaurants_btn:hover{
+    background: #233d84;
+    cursor: pointer;
+    border: 3px solid #233d84;
+}
+
