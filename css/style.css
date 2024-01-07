@@ -24,6 +24,7 @@ body {
     background: #fff;
     padding-bottom: 20px;
     position: fixed;
+    z-index: 999;
 }
 
 .desktop_size {
@@ -39,7 +40,7 @@ body {
 }
 
 .header_logo {
-
+    margin-left: 15px;
 }
 
 .header_logo img {
@@ -50,7 +51,7 @@ body {
     width: 230px;
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
+    margin-right: 9px;
 }
 
 #signup_btn {
@@ -454,7 +455,7 @@ body {
 .name_place {
     font-size: 30px;
     font-weight: 600;
-    color: #3e3e3e;
+    color: #192c5f;
 }
 
 .rating {
@@ -568,8 +569,8 @@ body {
 .restaurants_box {
     margin-top: 30px;
     border: 3px solid #4b8fce;
-    height: 255px;
-    padding: 25px;
+    height: auto;
+    padding: 50px;
     border-radius: 30px;
     padding-bottom: 0px;
     background: #c5e4ff9e;
@@ -586,7 +587,7 @@ body {
 }
 
 .restaurants_desc {
-    font-size: 20px;
+    font-size: 19px;
     padding-top: 10px;
     font-weight: 400;
 }
@@ -609,4 +610,225 @@ body {
     cursor: pointer;
     border: 3px solid #233d84;
 }
+
+a {
+    text-decoration: none;
+}
+
+.hotel_details {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.info_about_hotel {
+    width: 73%;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #233d84;
+    padding: 8px;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.gallery_image {
+
+}
+
+.gallery_image:hover{
+    transform: scale(4.0);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.gallery_image img {
+    width: 155px;
+}
+
+.info {
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about {
+    width: 100%;
+    
+}
+
+.text {
+
+}
+
+.select_date {
+    width: 100%;
+    margin-left: 265px;
+}
+
+.calendar {
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.open_btn
+{
+    font-size: 25px;
+    width: 315px;
+    padding: 5px 5px;
+    border: 3px solid #4b8fce;
+    background: #4b8fce;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+#info_popup {
+    position: fixed;
+    top: 71%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    border-radius: 10px;
+}
+
+
+
+.day_name { 
+    background: #4b8fce;
+    font-weight: 600;
+    color: #fff;
+}
+
+.day_num {
+    grid-column-start: 2;
+}
+
+.day_num:hover {
+    background: #192c5f;
+    color: #fff;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    padding: 3px;
+}
+
+.li:hover {
+    background: #192c5f;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -5px;
+    color: #192c5f;
+}
+
+.close_btn {
+    width: 100%;
+    padding: 5px 5px;
+    border: 3px solid #4b8fce;
+    background: #4b8fce;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.reviews {
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.review_box {
+    border: 3px solid #192c5f;
+    padding: 11px 20px;
+}
+
+.user_review {
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #444;
+    margin-bottom: 30px;
+}
+
+.review_title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #192c5f;
+    margin-bottom: 35px;
+}
+
+.user_info {
+    display: flex;
+    align-items: center;
+}
+
+.user_image {
+
+}
+
+.user_image img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.user_name {
+    margin-left: 15px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.grade {
+    display: flex;
+}
+
+.grade img {
+    width: 90px;
+    margin-top: -20px;
+}
+
+.grade_num {
+    margin-left: 15px;
+    margin-top: 14px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.comment {
+    padding: 13px;
+    border-radius: 13px;
+    border: 2px solid #999595;
+    width: fit-content;
+    color: #444444e0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+
 

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+</head>
+<body>
+    <div class="desktop_header">
+        <div class="desktop_size">
+            <div class="header">
+                <div class="header_logo"><img src="images/logo.jpg" alt=""></div>
+                <div class="header_buttons">
+                    <div id="signup_btn">Sing up</div>
+                    <div id="login_btn">Login</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="login_form" id="l_form">
+        <div class="login_header">Login</div>
+
+        <form id="apply-form" method="post">
+            <input class="login_input" type="email" name="user_email" placeholder="Email" required>
+            <input class="login_input" id="password" type="password" name="user_password" placeholder="Password" required>
+            <input class="cont_btn" type="submit" name="submit_login" value="Login">
+        </form>
+
+        <div class="extra_login_features">
+            <div id="remember_me"><input name="group1" type="radio" checked /> Remember Me?</div>
+            <div id="forgot_pass"><a href="#">Forgot Password?</a></div>
+        </div>
+
+        <div class="not_member">Don't have an account? <a href="/"><span class="newjoin">Signup</span></a></div>
+    </div>
+
+    <div class="signup_form" id="s_form">
+        <div class="signup_header">Signup</div>
+
+        <form id="apply-form" method="post">
+            <input class="signup_input" type="email" name="user_email" placeholder="Email" required>
+            <input class="signup_input" id="password" type="password" name="user_password" minlength="5" placeholder="Create password" required>
+            <input class="signup_input" type="password" name="user_password" placeholder="Confirm password" required>
+            <input class="cont_btn" type="submit" name="submit_login" value="Signup">
+        </form>
+
+        <div class="extra_login_features">
+            <div id="remember_me"><input name="group1" type="radio" checked /> Remember Me?</div>
+            <div id="forgot_pass"><a href="#">Forgot Password?</a></div>
+        </div>
+
+        <div class="not_member">Already have an account? <a href="/"><span class="newjoin">Login</span></a></div>
+    </div>
+
+    <div class="cover">
+
+        <div class="search_location">
+            <form id="type_location" method="post">
+                <input class="location_input" type="search" name="location" placeholder="Where are you going?">
+            </form>
+        </div>
+
+        
+        <div class="hotel_details">
+
+            <div class="info_about_hotel">
+
+                <div class="gallery">
+                    <div class="gallery_image"><img src="images/olympia9.jpg" alt=""></div>
+                    <div class="gallery_image"><img src="images/olympia5.jpg" alt=""></div>
+                    <div class="gallery_image"><img src="images/olympia8.jpg" alt=""></div>
+                    <div class="gallery_image"><img src="images/olympia2.jpg" alt=""></div>
+                    <div class="gallery_image"><img src="images/olympia4.jpg" alt=""></div>
+                    <div class="gallery_image"><img src="images/olympia7.jpg" alt=""></div>
+                    <div class="gallery_image"><img src="images/olympia3.jpg" alt=""></div>
+                </div>
+
+                <div class="info">
+                    
+                    <div class="about">
+                        <div class="text">
+
+                            <div class="name_place">Hotel Olympia</div>
+
+                            <div class="rating">
+                                <div class="stars"><img src="icons/5 stars.png" alt=""></div>
+                                <div class="rating_number">5.0 (2345 reviews)</div>
+                            </div>
+
+                            <div class="location">
+                                <div class="location_image"><img src="icons/pin.svg" alt=""></div>
+                                <div class="location_text">Vodice, Croatia</div>
+                            </div>
+
+                            <div class="price">$ 250/night</div>
+
+                            <div class="include">Breakfast included</div>
+                        </div>
+                    </div>
+
+                    <div class="select_date">
+                        <div class="calendar">
+                            <button class="open_btn" id="open_btn">Select dates</button>
+                            <div id="info_popup" class="hidden">
+                                <h1>January 2024</h1>
+                                <ol class="calendar">
+                                    <li class="day_name">Sun</li>
+                                    <li class="day_name">Mon</li>
+                                    <li class="day_name">Tue</li>
+                                    <li class="day_name">Wed</li>
+                                    <li class="day_name">Thu</li>
+                                    <li class="day_name">Fri</li>
+                                    <li class="day_name">Sat</li>
+
+                                    <li class="day_num">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                    <li>6</li>
+                                    <li>7</li>
+                                    <li>8</li>
+                                    <li>9</li>
+                                    <li>10</li>
+                                    <li>11</li>
+                                    <li>12</li>
+                                    <li>13</li>
+                                    <li>14</li>
+                                    <li>15</li>
+                                    <li>16</li>
+                                    <li>17</li>
+                                    <li>18</li>
+                                    <li>19</li>
+                                    <li>20</li>
+                                    <li>21</li>
+                                    <li>22</li>
+                                    <li>23</li>
+                                    <li>24</li>
+                                    <li>25</li>
+                                    <li>26</li>
+                                    <li>27</li>
+                                    <li>28</li>
+                                    <li>29</li>
+                                    <li>30</li>
+                                    <li>31</li>
+                                </ol>
+
+                                <button class="close_btn" id="close_btn">Proceed to booking</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews">
+                    <div class="review_box">
+                        <div class="review_title">User Reviews</div>
+
+                        <div class="user_review">
+                            <div class="user_info">
+                                <div class="user_image"><img src="images/user1.jpg" alt=""></div>
+                                <div class="user_name">Joanna.D</div>
+                            </div>
+                            <div class="grade">
+                                <img src="icons/5 stars.png" alt="">
+                                <div class="grade_num">5.0</div>
+                            </div>
+                            <div class="comment">Nice property, had a lot of fun there. Highly recommended!</div>
+                        </div>
+
+                        <div class="user_review">
+                            <div class="user_info">
+                                <div class="user_image"><img src="images/user3.jpeg" alt=""></div>
+                                <div class="user_name">Martin.N</div>
+                            </div>
+                            <div class="grade">
+                                <img src="icons/5 stars.png" alt="">
+                                <div class="grade_num">4.9</div>
+                            </div>
+                            <div class="comment">Clean hotel at a great location.</div>
+                        </div>
+
+                        <div class="user_review">
+                            <div class="user_info">
+                                <div class="user_image"><img src="images/user2.jpg" alt=""></div>
+                                <div class="user_name">Peter.H</div>
+                            </div>
+                            <div class="grade">
+                                <img src="icons/5 stars.png" alt="">
+                                <div class="grade_num">4.8</div>
+                            </div>
+                            <div class="comment">Great place for vacation! Great hotel, will definitely stay here again!</div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+                
+            
+            <div class="right_side">
+                <div class="right_box">
+
+                    <div class="experiences_box">
+                        <div class="experiences_info">
+                            <div class="ex_title">Experiences</div>
+                            <div class="ex_desc">View tours</div>
+                            <div class="ex_btn">View more</div>
+                        </div>
+                    </div>
+
+                    <div class="restaurants_box">
+                        <div class="restaurants_info">
+                            <div class="restaurants_title">Restaurants</div>
+                            <div class="restaurants_desc">Find the best restaurants at lowest price</div>
+                            <div class="restaurants_btn">View more</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+<script src="script2.js"></script> 
+</body>
+</html>

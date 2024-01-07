@@ -30,4 +30,22 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    var openButton = document.getElementById("open_btn");
+    var infoPopup = document.getElementById("info_popup");
+    var closeButton = document.getElementById("close_btn");
+
+    openButton.addEventListener("click", function () {
+        infoPopup.classList.remove("hidden");
+    });
+
+    closeButton.addEventListener("click", function () {
+        infoPopup.classList.add("hidden");
+    });
+});
+
+
+
+
+
 
