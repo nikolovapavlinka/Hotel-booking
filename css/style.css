@@ -734,9 +734,12 @@ li {
     padding: 3px;
 }
 
-.li:hover {
-    background: #192c5f;
-    color: #fff;
+.calendar li:hover {
+    background-color: #192c5f; 
+    color: #fff; 
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
 }
 
 h1 {
@@ -761,6 +764,7 @@ h1 {
     width: 87%;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .review_box {
@@ -829,6 +833,109 @@ h1 {
     font-weight: 500;
     margin-top: -10px;
 }
+
+.guest_information {
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.guest_box {
+    border: 3px solid #192c5f;
+    padding: 15px 23px;
+}
+
+.guest_title {
+    font-size: 29px;
+    font-weight: 600;
+    color: #192c5f;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.guest_information_box {
+
+}
+
+.guest_input {
+    margin-bottom: 30px;
+    width: 360px;
+    padding: 13px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-left: 253px;
+}
+
+#choose_country {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    margin-left: 253px;
+}
+
+#choose_country_form {
+    margin-bottom: 20px;
+    width: 395px;
+    padding: 13px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-left: 253px;
+    color: #444c;
+    margin-bottom: 30px;
+}
+
+.country {
+    color: #444;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.reason {
+    margin-left: 253px;
+}
+
+.reason_title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+}
+
+.reason_btns {
+    font-size: 17px;
+    font-weight: 600;
+    color: #444c;
+    padding-bottom: 45px;
+}
+
+.leasure_btn {
+
+}
+
+.work_btn {
+
+}
+
+.booking_btn {
+    font-size: 21px;
+    width: 269px;
+    padding: 5px 5px;
+    border: 3px solid #4b8fce;
+    background: #4b8fce;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 300px;
+    text-align: center;
+}
+
+
+
 
 
 

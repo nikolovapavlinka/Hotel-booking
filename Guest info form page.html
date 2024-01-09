@@ -103,108 +103,48 @@
                             <div class="include">Breakfast included</div>
                         </div>
                     </div>
-
-                    <div class="select_date">
-                        <div class="calendar">
-                            <button class="open_btn" id="open_btn">Select dates</button>
-                            <div id="info_popup" class="hidden">
-                                <h1>January 2024</h1>
-                                <ol class="calendar">
-                                    <li class="day_name">Sun</li>
-                                    <li class="day_name">Mon</li>
-                                    <li class="day_name">Tue</li>
-                                    <li class="day_name">Wed</li>
-                                    <li class="day_name">Thu</li>
-                                    <li class="day_name">Fri</li>
-                                    <li class="day_name">Sat</li>
-
-                                    <li class="day_num">1</li>
-                                    <li>2</li>
-                                    <li>3</li>
-                                    <li>4</li>
-                                    <li>5</li>
-                                    <li>6</li>
-                                    <li>7</li>
-                                    <li>8</li>
-                                    <li>9</li>
-                                    <li>10</li>
-                                    <li>11</li>
-                                    <li>12</li>
-                                    <li>13</li>
-                                    <li>14</li>
-                                    <li>15</li>
-                                    <li>16</li>
-                                    <li>17</li>
-                                    <li>18</li>
-                                    <li>19</li>
-                                    <li>20</li>
-                                    <li>21</li>
-                                    <li>22</li>
-                                    <li>23</li>
-                                    <li>24</li>
-                                    <li>25</li>
-                                    <li>26</li>
-                                    <li>27</li>
-                                    <li>28</li>
-                                    <li>29</li>
-                                    <li>30</li>
-                                    <li>31</li>
-                                </ol>
-
-                                <a href="Guest info form page.html"><button class="close_btn" id="close_btn">Proceed to booking</button></a>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
-                <div class="reviews">
-                    <div class="review_box">
-                        <div class="review_title">User Reviews</div>
+                <!-- ...................... -->
+                <div class="guest_information">
 
-                        <div class="user_review">
-                            <div class="user_info">
-                                <div class="user_image"><img src="images/user1.jpg" alt=""></div>
-                                <div class="user_name">Joanna.D</div>
+                    <div class="guest_box">
+                    <div class="guest_title">Enter guest information</div>
+                    <div class="guest_information_box">
+                        <input class="guest_input" type="text" placeholder="Main guest name" required><br>
+                        <input class="guest_input" type="email" placeholder="E-mail address" required><br>
+                        <input class="guest_input" type="text" placeholder="Phone number" required><br>
+
+                        <label for="choose_country" id="choose_country">Select your country</label><br>
+                        <select id="choose_country_form" name="choose_country">
+                            <option class="country" value="country1">Croatia</option>
+                            <option class="country" value="country2">Macedonia</option>
+                            <option class="country" value="country3">Serbia</option>
+                            <option class="country" value="country4">Bulgaria</option>
+                            <option class="country" value="other">Other...</option>
+                        </select>
+
+                        <div class="reason">
+                            <div class="reason_title">Reason for travel?</div>
+                            <div class="reason_btns">
+                                <label>
+                                    <input class="leasure_btn" type="radio" name="reason_travel">
+                                    Leasure
+                                </label>
+                                <label>
+                                    <input class="work_btn" type="radio" name="reason_travel">
+                                    Work
+                                </label>
                             </div>
-                            <div class="grade">
-                                <img src="icons/5 stars.png" alt="">
-                                <div class="grade_num">5.0</div>
-                            </div>
-                            <div class="comment">Nice property, had a lot of fun there. Highly recommended!</div>
                         </div>
 
-                        <div class="user_review">
-                            <div class="user_info">
-                                <div class="user_image"><img src="images/user3.jpeg" alt=""></div>
-                                <div class="user_name">Martin.N</div>
-                            </div>
-                            <div class="grade">
-                                <img src="icons/5 stars.png" alt="">
-                                <div class="grade_num">4.9</div>
-                            </div>
-                            <div class="comment">Clean hotel at a great location.</div>
-                        </div>
-
-                        <div class="user_review">
-                            <div class="user_info">
-                                <div class="user_image"><img src="images/user2.jpg" alt=""></div>
-                                <div class="user_name">Peter.H</div>
-                            </div>
-                            <div class="grade">
-                                <img src="icons/5 stars.png" alt="">
-                                <div class="grade_num">4.8</div>
-                            </div>
-                            <div class="comment">Great place for vacation! Great hotel, will definitely stay here again!</div>
-                        </div>
+                        <div class="booking_btn">Proceed to booking</div>
 
                     </div>
                 </div>
-
+                </div>
             </div>
-
-                
-            
+    
             <div class="right_side">
                 <div class="right_box">
 
