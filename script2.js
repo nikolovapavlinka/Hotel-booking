@@ -44,6 +44,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+function toggleSelection(box1) {
+    var box = document.getElementById(box1);
+    box.classList.toggle("selected");
+}
+
+
 
 
 

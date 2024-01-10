@@ -934,8 +934,295 @@ h1 {
     text-align: center;
 }
 
+.payment_section {
+    width: 73%;
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 70px;
+}
 
+.booking_summary {
+    width: 83%;
+    margin: 0 auto;
+}
 
+.booking_details {
+
+}
+
+.booking_details_title {
+    font-size: 35px;
+    font-weight: 500;
+    color: #040434;
+    padding-bottom: 50px;
+}
+
+.image_booking img{
+    width: 450px;
+    padding-right: 65px;
+}
+
+.about_hotel {
+    width: 100%;
+    display: flex;
+}
+
+.booking_info {
+    width: 45%;
+    border: 1px solid #4444445c;
+    border-radius: 10px;
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    color: #2c2b2b;
+}
+
+.payment {
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.payment_box {
+    border: 3px solid #192c5f;
+    padding: 15px 23px;
+    text-align: center;
+}
+
+.payment_title {
+    font-size: 29px;
+    font-weight: 600;
+    color: #192c5f;
+    margin-bottom: 35px;
+}
+
+.total_pay {
+    border: 1px solid #6fc254;
+    background: #6fc254;
+    width: 300px;
+    padding: 20px;
+    margin-left: 235px;
+    border-radius: 35px;
+
+}
+
+.total_text {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.total_price {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.payment_title2 {
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #323030;
+}
+
+.payment_methods {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+#creditcard {
+    border: 3px solid #4b8fce;
+    box-shadow: 0px 0px 17px 7px #4b8fce;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    height: 135px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    box-shadow: 0px 0px 17px -5px #4b8fce;
+    cursor: pointer;
+}
+
+.card_text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #323030;
+}
+
+.card_images {
+
+}
+
+.card_images img {
+    width: 60px;
+    border: 2px solid #b9b6b6;
+    padding: 5px;
+    height: 38px;
+}
+
+#paypal {
+    border: 3px solid #4b8fce;
+    box-shadow: 0px 0px 17px -5px #4b8fce;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    height: 135px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#paypal:hover {
+    box-shadow: 0px 0px 17px 3px #4b8fce;
+    cursor: pointer;
+}
+
+.paypal_text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #323030;
+}
+
+.paypal_image {
+
+}
+
+.paypal_image img {
+    width: 111px;
+    padding: 5px;
+    height: 38px;
+}
+
+.marker {
+
+}
+
+.payment_details {
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 0px 17px 5px #aba9a9;
+    border: 1px solid #aba9a9;
+    padding: 13px 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.payment_details_title {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #192c5f;
+    padding-bottom: 30px;
+}
+
+.name_form {
+
+}
+
+.name_text {
+    margin-right: 230px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #323030;
+}
+
+.payment_input {
+    width: -webkit-fill-available;
+    padding: 10px;
+    border: 2px solid #192c5f;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card_number {
+
+}
+
+.number_text {
+    margin-right: 230px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #323030;
+}
+
+.card_details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.expiry_date {
+
+}
+
+.expiry_date_title {
+    margin-right: 127px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #323030;
+}
+
+.date_input {
+    width: 257px;
+    padding: 10px;
+    border: 2px solid #192c5f;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444444cf;
+
+}
+
+.cvv {
+
+}
+
+.cvv_title {
+    margin-right: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #323030;
+}
+
+.cvv_input {
+    width: 55px;
+    padding: 10px;
+    border: 2px solid #192c5f;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pay_btn {
+    width: -webkit-fill-available;
+    border: 1px solid #6fc254;
+    background: #6fc254;
+    padding: 10px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
 
 
 
