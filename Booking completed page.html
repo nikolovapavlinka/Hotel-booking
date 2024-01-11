@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking completed page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="page_mask"></div>
+
+    <div class="desktop_header">
+        <div class="desktop_size">
+            <div class="header">
+                <div class="header_logo"><img src="images/logo.jpg" alt=""></div>
+                <div class="header_buttons">
+                    <div id="signup_btn">Sing up</div>
+                    <div id="login_btn">Login</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="login_form" id="l_form">
+        <div class="login_header">Login</div>
+
+        <form id="apply-form" method="post">
+            <input class="login_input" type="email" name="user_email" placeholder="Email" required>
+            <input class="login_input" id="password" type="password" name="user_password" placeholder="Password" required>
+            <input class="cont_btn" type="submit" name="submit_login" value="Login">
+        </form>
+
+        <div class="extra_login_features">
+            <div id="remember_me"><input name="group1" type="radio" checked /> Remember Me?</div>
+            <div id="forgot_pass"><a href="#">Forgot Password?</a></div>
+        </div>
+
+        <div class="not_member">Don't have an account? <a href="/"><span class="newjoin">Signup</span></a></div>
+    </div>
+
+    <div class="signup_form" id="s_form">
+        <div class="signup_header">Signup</div>
+
+        <form id="apply-form" method="post">
+            <input class="signup_input" type="email" name="user_email" placeholder="Email" required>
+            <input class="signup_input" id="password" type="password" name="user_password" minlength="5" placeholder="Create password" required>
+            <input class="signup_input" type="password" name="user_password" placeholder="Confirm password" required>
+            <input class="cont_btn" type="submit" name="submit_login" value="Signup">
+        </form>
+
+        <div class="extra_login_features">
+            <div id="remember_me"><input name="group1" type="radio" checked /> Remember Me?</div>
+            <div id="forgot_pass"><a href="#">Forgot Password?</a></div>
+        </div>
+
+        <div class="not_member">Already have an account? <a href="/"><span class="newjoin">Login</span></a></div>
+    </div>
+
+
+    <div class="cover">
+
+        <div class="widgets">
+
+            <div class="left_side">
+                <div class="left_box">
+
+                    <div class="car_rental_box">
+                        <div class="car_rental_info">
+                            <div class="car_rental_title">Car rental</div>
+                            <div class="car_rental_desc">View car rental options</div>
+                            <div class="car_rental_btn">View more</div>
+                        </div>
+                    </div>
+
+
+                    <div class="instructors_box">
+                        <div class="instructors_info">
+                            <div class="instructors_title">Ski instructors</div>
+                            <div class="instructors_desc">Find the best instructors at lowest price</div>
+                            <div class="instructors_btn">View more</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="middle">
+                <!-- .............................. -->
+                <div class="confirmed_booking">
+                    <div class="confirmed_image"><img src="icons/checkmark.svg" alt=""></div>
+                    <div class="confirmed_text">Thank you! Your booking is confirmed.</div>
+                </div>
+
+                <div class="booking_desc">
+                    <img src="icons/checkmark2.png" alt="">
+                    <p>Hotel Olympia is expecting you on 1/1/2024</p>
+                </div>
+
+                <div class="booking_desc">
+                    <img src="icons/checkmark2.png" alt="">
+                    <p>Your payment will be handled by Hotel Olympia. The 'Payment' section below has more details</p>
+                </div>
+
+                <div class="confirmed_info">
+
+                    <div class="hotel_name">Hotel Olympia</div>
+                    <div class="hotel_info">
+                        <img src="icons/pin.svg" alt="">
+                        <p>Ljudevita Gaja bb, 22211 Vodice, Croatia</p>
+                    </div>
+                    <div class="hotel_info">
+                        <img src="icons/telephone-outline.svg" alt="">
+                        <p>+385-(0) 22 452 452</p>
+                    </div>
+                    <div class="hotel_info">
+                        <img src="icons/email.svg" alt="">
+                        <p>recepcija@olympiavodice.hr</p>
+                    </div>
+
+                    <div class="hotel_images">
+                        <a href="https://www.google.com/maps/place/Hotel+Olympia/@43.756204,15.786602,13z/data=!4m9!3m8!1s0x13352803c9e816ff:0x4c36f20fce36c5df!5m2!4m1!1i2!8m2!3d43.7561678!4d15.7863074!16s%2Fg%2F1vy5dcpq?hl=en-GB&entry=ttu"><img src="images/map - vodice.png" alt=""></a>
+                        <img src="images/olympia1.jpg" alt="">
+                    </div>
+
+                    <div class="print">
+                        <img src="icons/printing.png" alt="">
+                        <p>Get the print version</p>
+                    </div>
+
+                    <div class="reservation">
+                        <div class="reservation_info">
+                            <div class="text1">Your reservation</div>
+                            <div class="text2">1 night</div>
+                        </div>
+                    </div>
+                    <div class="reservation">
+                        <div class="reservation_info">
+                            <div class="text1">Check-in</div>
+                            <div class="text2">Monday 1 January 2024 (from 13:00)</div>
+                        </div>
+                    </div>
+                    <div class="reservation">
+                        <div class="reservation_info">
+                            <div class="text1">Check-out</div>
+                            <div class="text2">Tuesday 2 January 2024 (until 12:00)</div>
+                        </div>
+                    </div>
+                    <div class="reservation">
+                        <div class="reservation_info">
+                            <div class="text1">Prepayment</div>
+                            <div class="text2">You will be charged a prepayment of the total price at any time.</div>
+                        </div>
+                    </div>
+
+                    <div class="cancle_booking">
+                        <div class="cancle_text1">Cancellation cost</div>
+                        <div class="cancle_text2">&#9679; From now on: $35</div>
+                    </div>
+
+                    <div class="cancel_btn">Cancel your booking</div>
+                </div>
+
+            </div>
+
+            <div class="right_side">
+                <div class="right_box">
+
+                    <div class="experiences_box">
+                        <div class="experiences_info">
+                            <div class="ex_title">Experiences</div>
+                            <div class="ex_desc">View tours</div>
+                            <div class="ex_btn">View more</div>
+                        </div>
+                    </div>
+
+                    <div class="restaurants_box">
+                        <div class="restaurants_info">
+                            <div class="restaurants_title">Restaurants</div>
+                            <div class="restaurants_desc">Find the best restaurants at lowest price</div>
+                            <div class="restaurants_btn">View more</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>   
+
+        </div>
+
+    </div>
+
+<script src="script2.js"></script> 
+</body>
+</html>

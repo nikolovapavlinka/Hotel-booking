@@ -1224,5 +1224,145 @@ h1 {
     cursor: pointer;
 }
 
+.confirmed_booking {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
 
+.confirmed_image {
+
+}
+
+.confirmed_image img {
+    width: 86px;
+}
+
+.confirmed_text {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.booking_desc {
+    display: flex;
+    align-items: center;
+}
+
+.booking_desc img {
+    width: 23px;
+    margin-right: 10px;
+}
+
+.booking_desc p {
+    font-size: 17px;
+}
+
+.confirmed_info {
+    padding-top: 30px;
+}
+
+.hotel_name {
+    font-size: 30px;
+    font-weight: 600;
+    color:#192c5f;
+    padding-bottom: 20px;
+}
+
+.hotel_info {
+    display: flex;
+    align-items: center;
+}
+
+.hotel_info img {
+    width: 30px;
+    margin-right: 17px;
+}
+
+.hotel_info p {
+    font-size: 17px;
+}
+
+.hotel_images {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+
+.hotel_images img {
+    width: 310px;
+}
+
+.print {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    padding-left: 255px;
+    
+}
+
+.print img {
+    width: 38px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.print p {
+    border-bottom: 1px solid #0a59ec;
+    color: #0a59ec;;
+    cursor: pointer;
+}
+
+.reservation {
+    padding-top: 30px;
+}
+
+.reservation_info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #44444454;
+    padding-bottom: 21px;
+    
+}
+
+.text1 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.text2 {
+    font-size: 17px;
+}
+
+.cancle_booking {
+    display: flex;
+    padding-top: 25px;
+}
+
+.cancle_text1 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 145px;
+}
+
+.cancel_text2 {
+    font-size: 17px;
+}
+
+.cancel_btn {
+    width: 215px;
+    border: 1px solid #ef0606;
+    background: #ef0606;
+    padding: 10px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 250px;
+}
 
