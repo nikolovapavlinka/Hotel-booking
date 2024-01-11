@@ -1366,3 +1366,14 @@ h1 {
     margin-left: 250px;
 }
 
+.header_booking_info {
+    margin-bottom: -48px;
+    margin-top: -41px;
+    margin-right: 63px;
+}
+
+.header_booking_info p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #192c5f;
+}
