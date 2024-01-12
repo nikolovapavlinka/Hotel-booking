@@ -1437,3 +1437,29 @@ h1 {
     font-weight: 600;
     color: #fff;
 }
+
+.user_profile {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.user_profile img {
+    width: 39px;
+    border-radius: 50%;
+}
+
+.user_profile p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #233d84;
+}
+
+.log_out {
+    cursor: pointer;
+}
+
+.log_out img {
+    width: 45px;
+}
