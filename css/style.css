@@ -449,7 +449,7 @@ body {
 }
 
 .text {
-    margin-left: 50px;
+   margin-left: 40px;
 }
 
 .name_place {
@@ -670,7 +670,7 @@ a {
 
 .select_date {
     width: 100%;
-    margin-left: 265px;
+    margin-left: 19px;
 }
 
 .calendar {
@@ -697,7 +697,7 @@ a {
 #info_popup {
     position: fixed;
     top: 71%;
-    left: 55%;
+    left: 60%;
     transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 20px;
@@ -1448,6 +1448,7 @@ h1 {
 .user_profile img {
     width: 39px;
     border-radius: 50%;
+    margin-left: 35px;
 }
 
 .user_profile p {
@@ -1462,4 +1463,57 @@ h1 {
 
 .log_out img {
     width: 45px;
+}
+
+.beaty_box {
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 25px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+    margin-top: 12px;
+}
+
+.instructors2_box {
+    margin-top: 12px;
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+}
+
+.facilities {
+    width: 160%;
+    display: flex;
+}
+
+.facilities_title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #192c5f;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.more_facilities {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.more_facilities img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.more_facilities p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text_details {
+
 }
