@@ -1346,7 +1346,7 @@ h1 {
     margin-right: 145px;
 }
 
-.cancel_text2 {
+.cancle_text2 {
     font-size: 17px;
 }
 
@@ -1376,4 +1376,64 @@ h1 {
     font-size: 15px;
     font-weight: 600;
     color: #192c5f;
+}
+
+.failure_page {
+    width: 100%;
+    margin: 0 auto;
+    background: #efefef;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.payment_failure {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 650px;
+    padding-bottom: 30px;
+}
+
+.payment_failure img {
+    width: 100px;
+}
+
+.payment_failure p {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.failure_desc {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    color: red;
+}
+
+.back_btn {
+    display: flex;
+    align-items: center;
+    width: 174px;
+    margin-left: 709px;
+    border: 1px solid #ef0606;
+    background: #ef0606;
+    padding-left: 37px;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.back_btn img {
+    margin-right: 10px;
+    width: 25px;
+    filter: invert(1);
+}
+
+.back_btn p {
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
 }
