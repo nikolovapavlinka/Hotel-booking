@@ -678,8 +678,7 @@ a {
     grid-template-columns: repeat(7, 1fr);
 }
 
-.open_btn
-{
+.open_btn {
     font-size: 25px;
     width: 315px;
     padding: 5px 5px;
@@ -1515,5 +1514,1566 @@ h1 {
 }
 
 .text_details {
+
+}
+
+
+
+
+
+@media only screen and (max-width: 765px) {
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#page_mask { 
+    display: none;
+    background: rgba(0, 0, 0, 0.63);
+    position: fixed;
+    inset: 0px;
+    z-index: 998;
+}
+
+.desktop_header {
+    padding-top: 35px;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 30px;
+    position: fixed;
+    z-index: 999;
+}
+
+.desktop_size {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header_logo {
+    margin-left: 15px;
+}
+
+.header_logo img {
+    height: 53px;
+}
+
+.header_buttons {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 9px;
+}
+
+#signup_btn {
+    font-size: 25px;
+    border: 3px solid #4b8fce;
+    padding: 15px 15px;
+    border-radius: 20px;
+    background: #c5e4ff9e;
+    color: #4b8fce;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#login_btn {
+    font-size: 25px;
+    border: 3px solid #4b8fce;
+    padding: 15px 27px;
+    border-radius: 20px;
+    color: #4b8fce;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#login_btn:hover {
+    background: #4b8fce;
+    color: #fff;
+    cursor: pointer;
+}
+
+#signup_btn:hover {
+    background: #4b8fce;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login_form {
+    display: none;
+    height: 457px;
+    width: 495px;
+    position: absolute;
+    /* left: 50%; */
+    margin-left: -230px;
+    top: 20%;
+    z-index: 999;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 3px;
+    border-radius: 5px;
+    padding: 60px;
+    transition: visibility 1s ease 0s, opacity 0.5s ease-out 0s;
+}
+
+#l_form {
+    margin: 0 auto;
+}
+
+.login_header {
+    font-size: 2.5rem;
+    font-weight: bolder; 
+    margin-top: -15px; 
+    text-align: center; 
+    margin-bottom: 40px; 
+    line-height: 1.5; 
+    color: rgb(41, 41, 41); 
+    font-family: sans-serif;
+
+}
+
+#apply_form {
+
+}
+
+.login_input {
+    width: 94%; 
+    padding: 15px 10px; 
+    border: 1px solid rgb(214, 214, 214); 
+    margin-bottom: 13px; 
+    font-size: 1.5rem;
+    border-radius: 3px; 
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 5px inset;
+}
+
+.cont_btn {
+    font-family: sans-serif;
+    font-size: 27px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out 0s, transform 150ms ease 0s;
+    appearance: none;
+    width: 100%;
+    background: #4b8fce;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+
+.extra_login_features {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 19px; 
+    padding-left: 1px; 
+    padding-right: 1px; 
+    font-size: 1.5rem;
+}
+
+#remember_me {
+    color: rgb(153, 153, 153); 
+}
+
+#forgot_pass {
+    text-decoration: none;
+}
+
+.not_member {
+    border-top: 1px solid rgb(224, 224, 224);
+    padding-top: 30px;
+    margin-top: 63px;
+    margin-left: -40px;
+    margin-right: -40px;
+    text-align: center;
+    color: rgb(62, 62, 62);
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.signup_form {
+    display: none;
+    height: 545px;
+    width: 495px;
+    position: absolute; 
+    left: 50%; 
+    margin-left: -230px; 
+    top: 20%; 
+    z-index: 999; 
+    background: rgb(255, 255, 255); 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 3px;
+    border-radius: 5px;
+    padding: 40px; 
+    transition: visibility 1s ease 0s, opacity 0.5s ease-out 0s; 
+}
+
+#s_form {
+    margin: 0 auto;
+}
+
+.signup_header {
+    font-size: 2.5rem; 
+    font-weight: bolder; 
+    margin-top: -15px; 
+    text-align: center; 
+    margin-bottom: 40px; 
+    line-height: 1.5; 
+    color: rgb(41, 41, 41); 
+    font-family: sans-serif;
+
+}
+
+#apply_form {
+
+}
+
+.signup_input {
+    width: 94%; 
+    padding: 15px 10px; 
+    border: 1px solid rgb(214, 214, 214); 
+    margin-bottom: 13px; 
+    font-size: 1.5rem; 
+    border-radius: 3px; 
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 5px inset;
+}
+
+.cont_btn {
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out 0s, transform 150ms ease 0s;
+    appearance: none;
+    width: 100%;
+    background: #4b8fce;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+
+.extra_login_features {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 19px; 
+    padding-left: 1px; 
+    padding-right: 1px; 
+    font-size: 0.9rem;
+}
+
+#remember_me {
+    color: rgb(153, 153, 153); 
+    font-size: 18px;
+}
+
+#forgot_pass {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.not_member {
+    border-top: 1px solid rgb(224, 224, 224); 
+    padding-top: 30px; 
+    margin-top: 36px; 
+    margin-left: -40px; 
+    margin-right: -40px; 
+    text-align: center; 
+    color: rgb(62, 62, 62); 
+    font-weight: 400; 
+    font-size: 1.3rem;
+}
+
+.cover {
+    width: 272%;
+    margin: 0 auto;
+    background: #efefef;
+    height: 230vh;
+    padding-top: 120px;
+}
+
+.search_location {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+#type_location {
+    width: 400px;
+}
+
+.location_input {
+    width: 440px;
+    padding: 20px;
+    border: 1px solid #4b8fce;
+    font-size: 21px;
+    border-radius: 10px;
+    box-shadow: #6db2ef 0px 0px 7px inset;
+    margin-top: 40px;
+}
+
+.recommended_section {
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 33px;
+    font-weight: 600;
+    color: #233d84;
+    margin-left: -27px;
+}
+
+.widgets {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.left_side {
+    width: 20%;
+    position: fixed;
+}
+
+.left_box {
+
+}
+
+.car_rental_box {
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 25px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+    width: 159px;
+}
+
+.car_rental_info {
+    text-align: center;
+}
+
+.car_rental_title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #233d84;
+}
+
+.car_rental_desc {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.car_rental_btn {
+    border: 3px solid #4b8fce;
+    width: fit-content;
+    padding: 5px 9px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #4b8fce;
+    color: #fff;
+    
+}
+
+.car_rental_btn:hover{
+    background: #233d84;
+    cursor: pointer;
+    border: 3px solid #233d84;
+}
+
+.instructors_box {
+    margin-top: 100px;
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+    width: 111px;
+}
+
+.instructors_info {
+    text-align: center;
+}
+
+.instructors_title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #233d84;
+    margin-left: -16px;
+}
+
+.instructors_desc {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.instructors_btn {
+    border: 3px solid #4b8fce;
+    width: fit-content;
+    padding: 5px 9px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #4b8fce;
+    color: #fff;
+}
+
+.instructors_btn:hover{
+    background: #233d84;
+    cursor: pointer;
+    border: 3px solid #233d84;
+}
+
+.middle {
+    width: 75%;
+    margin-left: 265px;
+}
+
+.boxes {
+    
+}
+
+.middle_box {
+    display: flex;
+    border: 3px solid #233d84;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.middle_box:hover {
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.image {
+
+}
+
+.image img {
+    width: 328px;
+    padding-top: 39px;
+}
+
+.text {
+   margin-left: 40px;
+}
+
+.name_place {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192c5f;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: -11px;
+}
+
+.stars {
+
+}
+
+.stars img {
+    width: 120px;
+    margin-top: -16px;
+}
+
+.rating_number {
+    margin-top: -20px;
+    margin-left: 13px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.location {
+    display: flex;
+    margin-top: -35px;
+    align-items: center;
+}
+
+.location_image {
+
+}
+
+.location_image img {
+    width: 35px;
+    opacity: 0.5;
+    margin-top: 8px;
+}
+
+.location_text {
+    margin-left: 10px;
+    margin-top: 13px;
+    font-size: 26px;
+    color: #505050e0;
+    font-weight: 500;
+    
+}
+
+.price {
+    font-size: 29px;
+    margin-top: 14px;
+    font-weight: 600;
+}
+
+.include {
+    color: green;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 11px;
+}
+
+.right_side {
+    width: 20%;
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 897px;
+}
+
+.right_box {
+
+}
+
+.experiences_box {
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 25px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+    width: 159px;
+    margin-top: 30px;
+}
+
+.experiences_info {
+    text-align: center;
+}
+
+.ex_title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #233d84;
+}
+
+.ex_desc {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.ex_btn {
+    border: 3px solid #4b8fce;
+    width: fit-content;
+    padding: 5px 9px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #4b8fce;
+    color: #fff;
+}
+
+.ex_btn:hover{
+    background: #233d84;
+    cursor: pointer;
+    border: 3px solid #233d84;
+}
+
+.restaurants_box {
+    margin-top: 100px;
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+    width: 111px;
+}
+
+.restaurants_info {
+    text-align: center;
+}
+
+.restaurants_title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #233d84;
+    margin-left: -25px;
+}
+
+.restaurants_desc {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.restaurants_btn {
+    border: 3px solid #4b8fce;
+    width: fit-content;
+    padding: 5px 9px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 13px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #4b8fce;
+    color: #fff;
+}
+
+.restaurants_btn:hover{
+    background: #233d84;
+    cursor: pointer;
+    border: 3px solid #233d84;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hotel_details {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.info_about_hotel {
+    width: 73%;
+}
+
+.gallery {
+    width: 137%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #233d84;
+    padding: 8px;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.gallery_image {
+
+}
+
+.gallery_image:hover{
+    transform: scale(4.0);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.gallery_image img {
+    width: 155px;
+}
+
+.info {
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about {
+    width: 100%;
+    
+}
+
+.text {
+
+}
+
+.select_date {
+    width: 100%;
+    margin-left: 19px;
+}
+
+.calendar {
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.open_btn {
+    font-size: 35px;
+    width: 315px;
+    padding: 5px 5px;
+    border: 3px solid #4b8fce;
+    background: #4b8fce;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+#info_popup {
+    position: fixed;
+    top: 26%;
+    left: 80%;translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    border-radius: 10px;
+}
+
+
+
+.day_name { 
+    background: #4b8fce;
+    font-weight: 600;
+    color: #fff;
+}
+
+.day_num {
+    grid-column-start: 2;
+}
+
+.day_num:hover {
+    background: #192c5f;
+    color: #fff;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    padding: 3px;
+}
+
+.calendar li:hover {
+    background-color: #192c5f; 
+    color: #fff; 
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -5px;
+    color: #192c5f;
+}
+
+.close_btn {
+    width: 100%;
+    padding: 5px 5px;
+    border: 3px solid #4b8fce;
+    background: #4b8fce;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.reviews {
+    width: 108%;
+    margin: 0 auto;
+    margin-top: 57px;
+    margin-bottom: 50px;
+    margin-left: 31%;;
+}
+
+.review_box {
+    border: 3px solid #192c5f;
+    padding: 11px 20px;
+}
+
+.user_review {
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #444;
+    margin-bottom: 30px;
+}
+
+.review_title {
+    font-size: 47px;
+    font-weight: 600;
+    color: #192c5f;
+    margin-bottom: 40px;
+}
+
+.user_info {
+    display: flex;
+    align-items: center;
+}
+
+.user_image {
+
+}
+
+.user_image img {
+    width: 67px;
+    border-radius: 50%;
+}
+
+.user_name {
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.grade {
+    display: flex;
+}
+
+.grade img {
+    width: 107px;
+    margin-top: -20px;
+}
+
+.grade_num {
+    margin-left: 15px;
+    margin-top: 14px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.comment {
+    padding: 13px;
+    border-radius: 13px;
+    border: 2px solid #999595;
+    width: fit-content;
+    color: #444444e0;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.guest_information {
+    width: 99%;
+    margin: 0 auto;
+    margin-top: 121px;
+    margin-bottom: 50px;
+    margin-left: 307px;
+}
+
+.guest_box {
+    border: 3px solid #192c5f;
+    padding: 15px 23px;
+}
+
+.guest_title {
+    font-size: 47px;
+    font-weight: 600;
+    color: #192c5f;
+    margin-bottom: 81px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.guest_information_box {
+
+}
+
+.guest_input {
+    margin-bottom: 90px;
+    width: -webkit-fill-available;
+    padding: 26px 29px;
+    font-size: 31px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-left: 0;
+}
+
+#choose_country {
+    font-size: 31px;
+    font-weight: 500;
+    color: #444;
+    margin-left: 0;
+}
+
+#choose_country_form {
+    width: -webkit-fill-available;
+    padding: 26px 29px;
+    font-size: 31px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-left: 0;
+    color: #444c;
+    margin-bottom: 30px;
+}
+
+.country {
+    color: #444;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.reason {
+    margin-left: 0px;
+}
+
+.reason_title {
+    font-size: 31px;
+    font-weight: 500;
+    color: #444;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.reason_btns {
+    font-size: 31px;
+    font-weight: 600;
+    color: #444c;
+    padding-bottom: 45px;
+}
+
+.leasure_btn {
+
+}
+
+.work_btn {
+
+}
+
+.booking_btn {
+    width: -webkit-fill-available;
+    font-size: 31px;
+    padding: 10px 10px;
+    border: 3px solid #4b8fce;
+    background: #4b8fce;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.payment_section {
+    width: 73%;
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 70px;
+}
+
+.booking_summary {
+    width: 83%;
+    margin: 0 auto;
+}
+
+.booking_details {
+
+}
+
+.booking_details_title {
+    font-size: 41px;
+    font-weight: 600;
+    color: #040434;
+    padding-bottom: 50px;
+}
+
+.image_booking img{
+    width: 450px;
+    padding-right: 65px;
+}
+
+.about_hotel {
+    width: 139%;
+    display: flex;
+}
+
+.booking_info {
+    width: 130%;
+    border: 1px solid #373333;
+    border-radius: 10px;
+    padding: 17px 0px;
+    margin-top: 25px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: #2c2b2b;
+}
+
+.payment {
+    width: 120%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 31%;
+}
+
+.payment_box {
+    border: 3px solid #192c5f;
+    padding: 15px 23px;
+    text-align: center;
+}
+
+.payment_title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #192c5f;
+    margin-bottom: 35px;
+}
+
+.total_pay {
+    border: 1px solid #6fc254;
+    background: #6fc254;
+    width: 300px;
+    padding: 20px;
+    margin-left: 235px;
+    border-radius: 35px;
+
+}
+
+.total_text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.total_price {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.payment_title2 {
+    padding-top: 36px;
+    font-size: 27px;
+    font-weight: 500;
+    color: #323030;
+}
+
+.payment_methods {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+#creditcard {
+    border: 3px solid #4b8fce;
+    box-shadow: 0px 0px 17px 7px #4b8fce;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    height: 135px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    box-shadow: 0px 0px 17px -5px #4b8fce;
+    cursor: pointer;
+}
+
+.card_text {
+    font-size: 21px;
+    font-weight: 600;
+    color: #323030;
+}
+
+.card_images {
+
+}
+
+.card_images img {
+    width: 60px;
+    border: 2px solid #b9b6b6;
+    padding: 5px;
+    height: 38px;
+}
+
+#paypal {
+    border: 3px solid #4b8fce;
+    box-shadow: 0px 0px 17px -5px #4b8fce;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    height: 135px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#paypal:hover {
+    box-shadow: 0px 0px 17px 3px #4b8fce;
+    cursor: pointer;
+}
+
+.paypal_text {
+    font-size: 21px;
+    font-weight: 600;
+    color: #323030;
+}
+
+.paypal_image {
+
+}
+
+.paypal_image img {
+    width: 111px;
+    padding: 5px;
+    height: 38px;
+}
+
+.marker {
+
+}
+
+.payment_details {
+    width: 55%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 0px 17px 5px #aba9a9;
+    border: 1px solid #aba9a9;
+    padding: 13px 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.payment_details_title {
+    padding-top: 30px;
+    font-size: 33px;
+    font-weight: 600;
+    color: #192c5f;
+    padding-bottom: 30px;
+}
+
+.name_form {
+
+}
+
+.name_text {
+    margin-right: 230px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #323030;
+}
+
+.payment_input {
+    width: -webkit-fill-available;
+    padding: 10px;
+    border: 2px solid #192c5f;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card_number {
+
+}
+
+.number_text {
+    margin-right: 230px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #323030;
+}
+
+.card_details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.expiry_date {
+
+}
+
+.expiry_date_title {
+    margin-right: 127px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #323030;
+}
+
+.date_input {
+    width: 257px;
+    padding: 10px;
+    border: 2px solid #192c5f;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444444cf;
+
+}
+
+.cvv {
+
+}
+
+.cvv_title {
+    margin-right: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #323030;
+}
+
+.cvv_input {
+    width: 55px;
+    padding: 10px;
+    border: 2px solid #192c5f;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pay_btn {
+    width: -webkit-fill-available;
+    border: 1px solid #6fc254;
+    background: #6fc254;
+    padding: 10px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.confirmed_booking {
+    display: flex;
+    align-items: center;
+    margin-left: 51px;
+    margin-bottom: 84px;
+    padding-top: 30px;
+}
+
+.confirmed_image {
+
+}
+
+.confirmed_image img {
+    width: 130px;
+}
+
+.confirmed_text {
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.booking_desc {
+    display: flex;
+    align-items: center;
+}
+
+.booking_desc img {
+    width: 33px;
+    margin-right: 10px;
+}
+
+.booking_desc p {
+    font-size: 21px;
+}
+
+.confirmed_info {
+    padding-top: 30px;
+}
+
+.hotel_name {
+    font-size: 35px;
+    font-weight: 600;
+    color:#192c5f;
+    padding-bottom: 20px;
+}
+
+.hotel_info {
+    display: flex;
+    align-items: center;
+}
+
+.hotel_info img {
+    width: 39px;
+    margin-right: 17px;
+}
+
+.hotel_info p {
+    font-size: 21px;
+}
+
+.hotel_images {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+
+.hotel_images img {
+    width: 330px;
+}
+
+.print {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    padding-left: 255px;
+    
+}
+
+.print img {
+    width: 38px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.print p {
+    border-bottom: 1px solid #0a59ec;
+    color: #0a59ec;;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.reservation {
+    padding-top: 30px;
+}
+
+.reservation_info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #44444454;
+    padding-bottom: 21px;
+    
+}
+
+.text1 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.text2 {
+    font-size: 21px;
+}
+
+.cancle_booking {
+    display: flex;
+    padding-top: 25px;
+}
+
+.cancle_text1 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-right: 145px;
+}
+
+.cancle_text2 {
+    font-size: 21px;
+}
+
+.cancel_btn {
+    width: 241px;
+    border: 1px solid #ef0606;
+    background: #ef0606;
+    padding: 10px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+
+.header_booking_info {
+    margin-bottom: -48px;
+    margin-top: -41px;
+    margin-right: 63px;
+}
+
+.header_booking_info p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #192c5f;
+}
+
+.failure_page {
+    width: 403%;
+    margin: 0 auto;
+    background: #efefef;
+    height: 200vh;
+    padding-top: 300px;
+}
+
+.payment_failure {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 423px;
+    padding-bottom: 30px;
+}
+
+.payment_failure img {
+    width: 230px;
+}
+
+.payment_failure p {
+    font-size: 76px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.failure_desc {
+    width: 100%;
+    text-align: center;
+    padding-top: 93px;
+    font-size: 56px;
+    font-weight: 500;
+    color: red;
+}
+
+.back_btn {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    margin-left: 504px;
+    border: 1px solid #ef0606;
+    background: #ef0606;
+    padding-left: 178px;
+    border-radius: 20px;
+    margin-top: 143px;
+    cursor: pointer;
+}
+
+.back_btn img {
+    margin-right: 10px;
+    width: 25px;
+    filter: invert(1);
+}
+
+.back_btn p {
+    font-size: 69px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.user_profile {
+    display: flex;
+    align-items: center;
+    width: 39%;
+    justify-content: space-between;
+}
+
+.user_profile img {
+    width: 57px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.user_profile p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #233d84;
+}
+
+.log_out {
+    cursor: pointer;
+}
+
+.log_out img {
+    width: 55px;
+}
+
+.beaty_box {
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 25px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.instructors2_box {
+    margin-top: 30px;
+    border: 3px solid #4b8fce;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    background: #c5e4ff9e;
+}
+
+.facilities {
+    width: 160%;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.facilities_title {
+    font-size: 49px;
+    font-weight: 600;
+    color: #192c5f;
+    padding-top: 48px;
+    padding-bottom: 20px;
+}
+
+.more_facilities {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.more_facilities img {
+    width: 73px;
+    margin-right: 15px;
+}
+
+.more_facilities p {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.text_details {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
